@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70addc0b1992e4a988e7757f3f8d2ea4, type: 3}
+  m_Name: BAR M1918a2
+  m_EditorClassIdentifier: 
+  name: BAR M1918a2
+  damage: 2
+  maxDistance: 600
+  autoShoot: 1
+  recoilX: -2
+  recoilY: 2
+  recoilZ: 0.5
+  snappiness: 6
+  returnSpeed: 3
+  shootForce: 2
+  currentAmmo: 98
+  totalAmmo: 160
+  magSize: 160
+  fireRate: 1000
+  reloadTime: 3
+  isReloading: 0

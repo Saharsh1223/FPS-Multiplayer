@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70addc0b1992e4a988e7757f3f8d2ea4, type: 3}
+  m_Name: Schofield Model 3
+  m_EditorClassIdentifier: 
+  name: Schofield Model 3
+  damage: 30
+  maxDistance: 600
+  autoShoot: 0
+  recoilX: -2
+  recoilY: 2
+  recoilZ: 0.35
+  snappiness: 6
+  returnSpeed: 2
+  shootForce: 7
+  currentAmmo: 6
+  totalAmmo: 10
+  magSize: 10
+  fireRate: 60
+  reloadTime: 1
+  isReloading: 0
