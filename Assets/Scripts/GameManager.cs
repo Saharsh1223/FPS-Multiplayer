@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 	
 	private void Update()
 	{
-		if (playersCount == 1 && !hasCheckedIfGameOver)
+		if (playersCount == 1 && !hasCheckedIfGameOver && !(PhotonNetwork.PlayerList.Length == 1))
 		{
 			GameObject playerPrefab = GameObject.FindWithTag("ThisPlayer");
 			

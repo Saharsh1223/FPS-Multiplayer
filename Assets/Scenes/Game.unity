@@ -92,7 +92,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 4f5327a70afd14872b0b52bdccea3eca,
+  m_LightingDataAsset: {fileID: 112000000, guid: 1e8f8d1cf7e3749bb9f49d3ebaa25c89,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 844a7a30ef7684faeaf338e93a12bbc9,
     type: 2}
@@ -441,6 +441,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -946,6 +947,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -1162,6 +1164,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -1446,6 +1449,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -1662,6 +1666,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -1986,6 +1991,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -2348,6 +2354,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -2526,6 +2533,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -2742,6 +2750,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -3174,6 +3183,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -4089,6 +4099,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -4305,6 +4316,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -4570,6 +4582,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -5110,6 +5123,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -5434,6 +5448,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -5964,6 +5979,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -6494,6 +6510,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -6672,6 +6689,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -6888,6 +6906,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -7254,6 +7273,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -7686,6 +7706,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -7836,6 +7857,7 @@ MonoBehaviour:
   messageContent: {fileID: 3332197440137708284}
   playersCount: 0
   totalKills: 0
+  hasCheckedIfGameOver: 0
 --- !u!4 &1731602208
 Transform:
   m_ObjectHideFlags: 0
@@ -8170,6 +8192,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -8460,6 +8483,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5
@@ -8963,6 +8987,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   deathPanel: {fileID: 0}
+  swayPanel: {fileID: 0}
   holdableObjects: {fileID: 0}
   playerSetup: {fileID: 0}
   regenSpeed: 5

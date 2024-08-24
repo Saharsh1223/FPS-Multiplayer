@@ -116,6 +116,18 @@ public class WeaponSwitcher : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.Alpha1 + i) && timeSinceLastSwitch >= switchTime)
 			{
 				selectedWeapon = i;
+				
+				if (weapons[selectedWeapon].name == "Grappling Gun")
+				{
+					GrapplingGun grappleGun = weapons[selectedWeapon].GetComponent<GrapplingGun>();
+					
+					if (grappleGun.IsGrappling())
+					{
+						Debug.Log("Cannot change while grappling!");
+						break;	
+					}
+				}
+				
 				Select(selectedWeapon);
 			}
 		}

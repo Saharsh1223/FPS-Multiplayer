@@ -10,6 +10,9 @@ using TMPro;
 
 public class Lobby : MonoBehaviourPunCallbacks
 {
+	[Header("Settings")]
+	[SerializeField] private bool allowSinglePlayer = true;
+	
 	[Header("Main Panels")]
 	[SerializeField] private GameObject usernamePanel;
 	[SerializeField] private GameObject createRoomPanel;
@@ -120,7 +123,7 @@ public class Lobby : MonoBehaviourPunCallbacks
 	//Executed when "Start Game!" Button is Clicked in the Player waiting List!
 	public void StartGame()
 	{
-		if (PhotonNetwork.CurrentRoom.PlayerCount < 2)
+		if (!allowSinglePlayer)
 		{
 			Debug.LogError("Min 2 players required to start");
 			return;	
