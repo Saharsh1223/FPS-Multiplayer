@@ -19,11 +19,11 @@ MonoBehaviour:
     rid: 652572731909865472
   m_Scenes:
   - m_enabled: 1
-    m_path: Assets/Scenes/Connect.unity
+    m_path: Assets/Scenes/1_Connect.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/Lobby.unity
+    m_path: Assets/Scenes/2_Lobby.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/Game.unity
+    m_path: Assets/Scenes/3_Game.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []

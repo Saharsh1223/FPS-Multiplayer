@@ -129,7 +129,7 @@ public class Lobby : MonoBehaviourPunCallbacks
 			return;	
 		}
 		
-		PhotonNetwork.LoadLevel("Game"); //Load the Game Scene!
+		PhotonNetwork.LoadLevel("3_Game"); //Load the Game Scene!
 		PhotonNetwork.CurrentRoom.IsOpen = false; //Close the Room
 	}
 	
@@ -139,8 +139,8 @@ public class Lobby : MonoBehaviourPunCallbacks
 		//Leave the Room!
 		PhotonNetwork.LeaveRoom();
 		
-		//Reload the Lobby Scene!
-		SceneManager.LoadScene("Lobby");
+		//Reload the Connect Scene!
+		SceneManager.LoadScene("1_Connect");
 	}
 
 	#endregion

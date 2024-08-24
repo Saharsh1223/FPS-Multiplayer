@@ -19,6 +19,6 @@ public class Connect : MonoBehaviourPunCallbacks
     public override void OnJoinedLobby()
     {
         Debug.Log("Connected!");
-        SceneManager.LoadScene("Lobby");
+        SceneManager.LoadScene("2_Lobby");
     }
 }
